@@ -38,30 +38,7 @@ for i in range (0,len(targelist)):
 print("done press anykey to continu")
 input("")
 print(following_old)
-
-
-for i in range(0,len(following_old)):
-    mod=instaloader.Instaloader()
-    user=following_old[i]
-    mod.download_profile(user,profile_pic_only=True)
-    profilelink
-    tablble(following_old[i],)
-
-    
-httb=httb+'</table>'
-
-
-httb='<style>table, th, td {border:1px solid black;}</style><table<tr><th>username</th><th>pic</th></tr>'
-def tablble(name,pic):
-    httb=httb+'<tr><td>',name,'</td><td>',pic,'</td></tr>'
-
-
-httb='<style>table, th, td</style><table<tr><th>username</th><th>pic</th></tr>'
-
-
-
-def tablble(name,pic):
-    httb+='<tr><td>',name,'</td><td>',pic,'</td></tr>'
+#==================================================================
 
 def getpic(usename):
     # Create instance
@@ -110,7 +87,6 @@ for i in range(0,len(following_old)):
     file.write("\n")
     file.close()
 print('by:)')
-
 maorojloo=[]
 count=0
 print('▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒maorojloo▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒')
@@ -126,13 +102,7 @@ for followee in profile.get_followees():
     count = count + 1
 print('folwing count for maorojloo: ',len(maorojloo))
 mmd="kiri"
-
 finala = set(following_old)-set(maorojloo)
-
 print("▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒")
 print(finala)
-
 '''
-
- 
-
